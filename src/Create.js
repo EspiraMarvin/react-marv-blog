@@ -1,0 +1,7 @@
+const Create = () => {
+    return (
+        <div className="create">
+            <h2>Add </h2>
+        </div>
+    )
+}
