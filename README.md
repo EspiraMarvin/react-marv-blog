@@ -1,9 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+##To run the backedn
+### `json-server data/db.json --watch --port 8000'
 In the project directory, you can run:
 
 ### `yarn start`
