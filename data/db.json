@@ -17,6 +17,12 @@
       "body": "These files are:\n\nThe outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like.\nmanage.py: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in django-admin and manage.py.\nThe inner mysite/ directory is the actual Python package for your project. Its name is the Python package name you’ll need to use to import anything inside it (e.g. mysite.urls).\nmysite/__init__.py: An empty file that tells Python that this directory should be considered a Python package. If you’re a Python beginner, read more about packages in the official Python docs.\nmysite/settings.py: Settings/configuration for this Django project. Django settings will tell you all about how settings work.\nmysite/urls.py: The URL declarations for this Django project; a “table of contents” of your Django-powered site. You can read more about URLs in URL dispatcher.\nmysite/asgi.py: An entry-point for ASGI-compatible web servers to serve your project. See How to deploy with ASGI for more details.\nmysite/wsgi.py: An entry-point for WSGI-compatible web servers to serve your project. See How to deploy with WSGI for more details",
       "author": "yoshi",
       "id": 3
+    },
+    {
+      "title": "Why GraphQl?",
+      "body": "Managing data in modern applications is challenging. Most applications require:\n\nDistinct front-end clients for multiple platforms (web, iOS, etc.), each with different data requirements\nA backend that serves data to clients from multiple sources (Postgres, Redis, etc.)\nComplex state and cache management for both the frontend and the backend\nBy adopting GraphQL and Apollo, you can reduce these challenges considerably. GraphQL's declarative model helps you create a consistent, predictable API you can use across all of your clients. As you add, remove, and migrate back-end data stores, that API doesn't change from the client's perspective.\n\nEven with many other advantages, GraphQL's single greatest benefit is the developer experience it provides. It's straightforward to add new types and fields to your API, and similarly straightforward for your clients to begin using those fields. This helps you design, develop, and deploy features quickly.\n\nCombined with the Apollo platform, complex considerations like caching, data normalization, and optimistic UI rendering become straightforward as well.",
+      "author": "yoshi",
+      "id": 4
     }
   ]
 }
