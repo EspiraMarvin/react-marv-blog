@@ -1,5 +1,5 @@
 import BlogList from './BlogList'
-import useFetch from './useFetch';
+import useFetch from './hook/useFetch';
 
 const Home = () => {
 // let name = 'Mario'
